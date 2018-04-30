@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="#cv_stylesheet"?>
+<!DOCTYPE person [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<person>
+	<name>Chris Bowen</name>
+	<!-- Objective -->
+	<objective>Having recently defended my dissertation on unifying machine learning and motion planning for robotic tasks, I have expertise in two exciting domains, and I hope to further diversify and develop this repertoire by tackling challenging new problems.</objective>
+	<!-- Education -->
+	<section>
+		<name>Education</name>
+		<degree>
+			<name>Ph.D. in Computer Science</name>
+			<institution>University of North Carolina at Chapel Hill</institution>
+			<years>
+				<from>2013</from>
+				<to>2018</to>
+			</years>
+			<description>
+				<list>
+					<item>Thesis: &#x201c;Unifying Robot Learning and Motion Planning for Generalized Task Execution&#x201d;</item>
+					<item>Committee: Ron Alterovitz, Alex Berg, Kris Hauser, Vladimir Jojic, and Dinesh Manocha</item>
+				</list>
+			</description>
+		</degree>
+		<degree>
+			<name>M.S. in Computer Science</name>
+			<institution>University of North Carolina at Chapel Hill</institution>
+			<years>
+				<from>2011</from>
+				<to>2013</to>
+			</years>
+			<description>
+				<list>
+					<item>Courses included Robotics, Motion Planning, Algorithmics of Motion, Machine Learning, Computer Vision, Computational Geometry, and Computer Architecture</item>
+				</list>
+			</description>
+		</degree>
+		<degree>
+			<name>B.S. in Computer Science</name>
+			<institution>Georgia Institute of Technology, Atlanta, GA</institution>
+			<years>
+				<from>2007</from>
+				<to>2011</to>
+			</years>
+			<description>
+				<list>
+					<item>GPA: Overall 3.97, Major 4.00</item>
+					<item>GRE: Quantitative 800 (94%), Verbal 610 (88%), Computer Science 850 (94%)</item>
+					<item>Courses included Computational Modelling Algorithms, Differential Equations, Numerical Analysis, Combinatorial Analysis, Computer Graphics, and Computer Animation</item>
+				</list>
+			</description>
+		</degree>
+	</section>
+	<!-- Experience -->
+	<section>
+		<name>Experience</name>
+		<position>
+			<name>Research Assistant to Ron Alterovitz</name>
+			<employer>Computational Robotics Group, University of North Carolina at Chapel Hill</employer>
+			<years>
+				<from>2011</from>
+				<to>2018</to>
+			</years>
+			<description>
+				<list>
+					<item>Devised novel algorithms combining automatic task learning from user demonstrations with sampling-based methods for planning collision-free motions to accomplish the task</item>
+					<item>Implemented and evaluated approaches interactively on multiple physical and simulated robot systems capable of manipulation and mobility</item>
+					<item>Published and presented work internationally</item>
+					<item>Mentored undergraduate research assistants</item>
+				</list>
+			</description>
+		</position>
+		<position>
+			<name>Teaching Assistant</name>
+			<employer>Georgia Institute of Technology, Atlanta, GA</employer>
+			<years>
+				<from>2010</from>
+				<to>2011</to>
+			</years>
+			<description>
+				<list>
+					<item>Led recitations and held office hours to foster student understanding of algorithm design</item>
+					<item>Assisted in the construction and grading of assignments and exams</item>
+					<item>Presented advanced topics in analysis of algorithms to honors students</item>
+				</list>
+			</description>
+		</position>
+		<position>
+			<name>Summer Intern</name>
+			<employer>Worthwhile Company, Greenville, SC</employer>
+			<year>2009</year>
+			<description>
+				<list>
+					<item>Implemented and tested internal web application for database and server management</item>
+				</list>
+			</description>
+		</position>
+		<position>
+			<name>Student Participant</name>
+			<employer>Google Summer of Code</employer>
+			<year>2008</year>
+			<description>
+				<list>
+					<item>Designed, implemented, documented, and tested new level-of-detail features for the graphics rendering engine OGRE</item>
+				</list>
+			</description>
+		</position>
+		<position>
+			<name>Contract Programmer</name>
+			<employer>Rent-A-Coder</employer>
+			<year>2007</year>
+			<description>
+				<list>
+					<item>Implemented multithreaded timers for automation control</item>
+				</list>
+			</description>
+		</position>
+	</section>
+	<!-- Awards -->
+	<section>
+		<name>Awards</name>
+		<award>
+			<name>Invited Paper</name>
+			<year>2018</year>
+			<by>ACM/IEEE International Conference of Human Robot Interaction (HRI)</by>
+		</award>
+		<award>
+			<name>Doctoral Consortium Travel Grant</name>
+			<year>2017</year>
+			<by>International Symposium on Robotics Research (ISRR)</by>
+		</award>
+		<award>
+			<name>National Science Foundation Travel Grant</name>
+			<year>2014</year>
+			<by>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</by>
+		</award>
+		<award>
+			<name>Upsilon Pi Epsilon Member</name>
+			<year>2011</year>
+			<by>ACM Honor Society for the Computing and Information Disciplines</by>
+		</award>
+	</section>
+	<!-- Skills -->
+	<section>
+		<name>Skills</name>
+		<skill>
+			<name>Platforms</name>
+			<proficiency>Linux, Windows</proficiency>
+		</skill>
+		<skill>
+			<name>Languages</name>
+			<proficiency>C++17 and C# extensively; Python, Rust, Haskell, Java, MATLAB, JavaScript</proficiency>
+		</skill>
+		<skill>
+			<name>Technologies</name>
+			<proficiency>OpenMP, MPI, SIMD, TensorFlow, Torch, Boost, ROS, Gazebo, PCL, OpenCV, OpenGL, Vulkan, OGRE, Bullet, PhysX, Unreal Engine, Blender, Git, SQL, LaTeX, HTML, CSS</proficiency>
+		</skill>
+	</section>
+	<!-- Publications -->
+	<section>
+		<name>Publications</name>
+		<publication>
+			<authors>Chris Bowen and Ron Alterovitz</authors>
+			<year>2018</year>
+			<acceptance>Accepted</acceptance>
+			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
+			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
+		</publication>
+		<publication>
+			<authors>Cenk Baykal, Chris Bowen, and Ron Alterovitz</authors>
+			<year>2018</year>
+			<acceptance>Conditionally</acceptance>
+			<acceptance>Accepted</acceptance>
+			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
+			<publisher>Autonomous Robots (AuRo)</publisher>
+		</publication>
+		<publication>
+			<authors>Alan Kuntz, Chris Bowen, Cenk Baykal, Art Mahoney, Patrick Anderson, Fabien Maldonado, Robert James Webster III, and Ron Alterovitz</authors>
+			<year>2018</year>
+			<acceptance>Conditionally</acceptance>
+			<acceptance>Accepted</acceptance>
+			<title>Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
+			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
+		</publication>
+		<publication>
+			<authors>Chris Bowen and Ron Alterovitz</authors>
+			<year>2017</year>
+			<title>Accelerating motion planning for learned mobile manipulation tasks using task-guided Gibbs sampling</title>
+			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
+		</publication>
+		<publication>
+			<authors>Alan Kuntz, Chris Bowen, and Ron Alterovitz</authors>
+			<year>2017</year>
+			<title>Fast anytime motion planning in point clouds by interleaving sampling and interior point optimization</title>
+			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
+		</publication>
+		<publication>
+			<authors>Chris Bowen and Ron Alterovitz</authors>
+			<year>2016</year>
+			<title>Asymptotically optimal motion planning for tasks using learned virtual landmarks</title>
+			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
+		</publication>
+		<publication>
+			<authors>Chris Bowen, Gu Ye, and Ron Alterovitz</authors>
+			<year>2015</year>
+			<title>Asymptotically optimal motion planning for learned tasks using time-dependent cost maps</title>
+			<publisher>IEEE Transactions on Automation Science and Engineering (T-ASE)</publisher>
+		</publication>
+		<publication>
+			<authors>Chris Bowen and Ron Alterovitz</authors>
+			<year>2014</year>
+			<title>Closed-loop global motion planning for reactive execution of learned tasks</title>
+			<publisher>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</publisher>
+		</publication>
+	</section>
+	
+	<!-- Style -->
+	<xsl:stylesheet id="cv_stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<!-- Ignore stylesheets to allow embedding -->
+		<xsl:template match="xsl:stylesheet" />
+
+		<xsl:template match="address">
+			<div class="address"><xsl:value-of select="number"/>&#xa0;<xsl:value-of select="street"/>&#xa0;<xsl:value-of select="apartment"/></div>
+			<div class="address"><xsl:value-of select="city"/>,&#xa0;<xsl:value-of select="state"/>&#xa0;<xsl:value-of select="zip"/></div>
+		</xsl:template>
+		
+		<xsl:template match="phone">
+			<div class="phone">
+				<a>
+					<xsl:attribute name="href">tel:<xsl:value-of select="country"/>-<xsl:value-of select="area"/>-<xsl:value-of select="office"/>-<xsl:value-of select="line"/></xsl:attribute>
+					(<xsl:value-of select="area"/>)&#x2006;<xsl:value-of select="office"/>-<xsl:value-of select="line"/>
+				</a>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="email">
+			<div class="email">
+				<a>
+					<xsl:attribute name="href">mailto:<xsl:value-of select="local-part"/>@<xsl:value-of select="domain"/></xsl:attribute>
+					<xsl:value-of select="local-part"/>@<xsl:value-of select="domain"/>
+				</a>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="objective">
+			<div class="objective"><xsl:value-of select="."/></div>
+		</xsl:template>
+		
+		<xsl:template match="year">
+			<div class="when"><xsl:value-of select="."/></div>
+		</xsl:template>
+		
+		<xsl:template match="years">
+			<div class="when">
+				<xsl:value-of select="from"/> &#x2013;&#xa0;<xsl:value-of select="to"/>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="list">
+			<ul>
+				<xsl:for-each select="item">
+					<li><xsl:value-of select="."/></li>
+				</xsl:for-each>
+			</ul>
+		</xsl:template>
+		
+		<xsl:template match="description">
+			<div>
+				<xsl:apply-templates/>
+			</div>
+		</xsl:template>
+
+		<xsl:template match="acceptance">
+			<div class="acceptance"><xsl:value-of select="."/></div>
+		</xsl:template>
+		
+		<xsl:template match="degree">
+			<div class="entry">
+				<xsl:apply-templates select="year | years"/>
+				<div class="what">
+					<div class="entry_title"><xsl:value-of select="name"/></div>
+					<div class="entry_subtitle"><xsl:value-of select="institution"/></div>
+					<xsl:apply-templates select="description"/>
+				</div>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="position">
+			<div class="entry">
+				<xsl:apply-templates select="year | years"/>
+				<div class="what">
+					<div class="entry_title"><xsl:value-of select="name"/></div>
+					<div class="entry_subtitle"><xsl:value-of select="employer"/></div>
+					<xsl:apply-templates select="description"/>
+				</div>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="award">
+			<div class="entry">
+				<xsl:apply-templates select="year | years"/>
+				<div class="what">
+					<div class="entry_title"><xsl:value-of select="name"/></div>
+					<div class="entry_subtitle"><xsl:value-of select="by"/></div>
+				</div>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="skill">
+			<div class="entry">
+				<div class="when"><xsl:value-of select="name"/></div>
+				<div class="what">
+					<div class="description">
+						<xsl:value-of select="proficiency"/>
+					</div>
+				</div>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="publication">
+			<div class="entry">
+				<div class="when">
+					<xsl:value-of select="year"/>
+					<xsl:apply-templates select="acceptance"/>
+				</div>
+				<div class="what">
+					<div class="entry_title"><xsl:value-of select="authors"/></div>
+					<div class="entry_subtitle"><xsl:value-of select="publisher"/></div>
+					<div class="paper">&#x201c;<xsl:value-of select="title"/>&#x201d;</div>
+				</div>
+			</div>
+		</xsl:template>
+		
+		<xsl:template match="section">
+			<section>
+				<h1><xsl:value-of select="name"/></h1>
+				<xsl:apply-templates select="degree | position | award | skill | publication"/>
+			</section>
+		</xsl:template>
+		
+		<xsl:template match="person">
+			<html>
+				<head>
+					<title><xsl:value-of select="name"/></title>
+					<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet"/>
+					<style>
+						body {
+							background-color: #321414;
+							display: flex;
+							justify-content: center;
+							font-family: 'Source Sans Pro', sans-serif;
+							font-size: 0.8125em;
+						}
+						.page {
+							background-color: #fbfbf8;
+							max-width: 8.5in;
+							padding: 0;
+							box-shadow: 0px 2px 4px 4px #00000080;
+						}
+						.content {
+							padding: 11.76%;
+						}
+						.header {
+							display: flex;
+							flex-wrap: nowrap;
+							align-items: flex-end;
+						}
+						.contact {
+							flex: 1;
+							text-align: right;
+							color: #646463;
+							font-size: 0.75em;
+							letter-spacing: 0.1em;
+						}
+						.contact a {
+							color: #646463;
+							text-decoration: none;
+						}
+						.contact a:hover {
+							text-decoration: underline;
+						}
+						header {
+							display: block;
+							font-weight: 300;
+							font-size: 3.125em;
+						}
+						.objective {
+							font-style: italic;
+							text-align: justify;
+							padding-left: 12%;
+							padding-right: 12%;
+						}
+						.objective, h1 {
+							margin-top: 1.5em;
+							margin-bottom: 1.5em;
+						}
+						h1 {
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+							text-align: center;
+							font-weight: 300;
+							font-size: 1.5em;
+						}
+						h1::before, h1::after {
+							content: "";
+							display: block;
+							flex: 1 0;
+							max-width: 40%;
+							border-bottom: 1px solid black;
+						}
+						.entry {
+							display: flex;
+							flex-wrap: nowrap;
+							align-items: baseline;
+						}
+						.when, .what {
+							padding-left: 0.5em;
+							padding-right: 0.5em;
+						}
+						.when {
+							font-weight: 600;
+							min-width: 13.75%;
+							text-align: right;
+							align-content: right;
+						}
+						.what {
+							flex: 1 0;
+						}
+						.entry_title {
+							font-weight: 600;
+						}
+						.entry_subtitle {
+							font-style: italic;
+						}
+						ul {
+							list-style-type: none;
+							padding: 0;
+							margin: 0;
+							padding-left: 1.5em;
+							text-indent: -1.5em;
+						}
+						ul li::before {
+							content: "\2212";
+							padding: 0.5em;
+						}
+						.acceptance {
+							font-weight: 400;
+							font-style: italic;
+							color: #646463;
+						}
+						footer {
+							text-align: center;
+							font-size: 0.75em;
+							height: 2em;
+							margin-top: -2em;
+							color: #646463;
+						}
+					</style>
+				</head>
+				<body>
+					<div class="page">
+						<div class="content">
+							<div class="header">
+								<header><xsl:value-of select="name"/></header>
+								<div class="contact">
+									<xsl:apply-templates select="address"/>
+									<xsl:apply-templates select="phone"/>
+									<xsl:apply-templates select="email"/>
+								</div>
+							</div>
+							<xsl:apply-templates select="objective"/>
+							<xsl:apply-templates select="section"/>
+						</div>
+						<footer>
+							This XML document automatically transformed itself into HTML for your viewing pleasure.
+						</footer>
+					</div>
+				</body>
+			</html>
+		</xsl:template>
+	</xsl:stylesheet>
+</person>
