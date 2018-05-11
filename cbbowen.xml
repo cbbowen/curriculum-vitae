@@ -15,6 +15,7 @@
 				<from>2013</from>
 				<to>2018</to>
 			</years>
+			<expectation>Expected</expectation>
 			<description>
 				<list>
 					<item>Thesis: &#x201c;Unifying Robot Learning and Motion Planning for Generalized Task Execution&#x201d;</item>
@@ -162,23 +163,23 @@
 		<publication>
 			<authors>Chris Bowen and Ron Alterovitz</authors>
 			<year>2018</year>
-			<acceptance>Accepted</acceptance>
+			<expectation>Accepted</expectation>
 			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
 			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
 		</publication>
 		<publication>
 			<authors>Cenk Baykal, Chris Bowen, and Ron Alterovitz</authors>
 			<year>2018</year>
-			<acceptance>Conditionally</acceptance>
-			<acceptance>Accepted</acceptance>
+			<expectation>Conditionally</expectation>
+			<expectation>Accepted</expectation>
 			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
 			<publisher>Autonomous Robots (AuRo)</publisher>
 		</publication>
 		<publication>
 			<authors>Alan Kuntz, Chris Bowen, Cenk Baykal, Art Mahoney, Patrick Anderson, Fabien Maldonado, Robert James Webster III, and Ron Alterovitz</authors>
 			<year>2018</year>
-			<acceptance>Conditionally</acceptance>
-			<acceptance>Accepted</acceptance>
+			<expectation>Conditionally</expectation>
+			<expectation>Accepted</expectation>
 			<title>Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
@@ -219,6 +220,8 @@
 		<!-- Ignore stylesheets to allow embedding -->
 		<xsl:template match="xsl:stylesheet" />
 
+		<xsl:output method="html" indent="yes"/>
+
 		<xsl:template match="address">
 			<div class="address"><xsl:value-of select="number"/>&#xa0;<xsl:value-of select="street"/>&#xa0;<xsl:value-of select="apartment"/></div>
 			<div class="address"><xsl:value-of select="city"/>,&#xa0;<xsl:value-of select="state"/>&#xa0;<xsl:value-of select="zip"/></div>
@@ -247,13 +250,15 @@
 		</xsl:template>
 		
 		<xsl:template match="year">
-			<div class="when"><xsl:value-of select="."/></div>
+			<xsl:value-of select="."/>
 		</xsl:template>
 		
 		<xsl:template match="years">
-			<div class="when">
-				<xsl:value-of select="from"/> &#x2013;&#xa0;<xsl:value-of select="to"/>
-			</div>
+			<xsl:value-of select="from"/> &#x2013;&#xa0;<xsl:value-of select="to"/>
+		</xsl:template>
+
+		<xsl:template match="expectation">
+			<div class="expectation"><xsl:value-of select="."/></div>
 		</xsl:template>
 		
 		<xsl:template match="list">
@@ -270,13 +275,12 @@
 			</div>
 		</xsl:template>
 
-		<xsl:template match="acceptance">
-			<div class="acceptance"><xsl:value-of select="."/></div>
-		</xsl:template>
-		
 		<xsl:template match="degree">
 			<div class="entry">
-				<xsl:apply-templates select="year | years"/>
+				<div class="when">
+					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="expectation"/>
+				</div>
 				<div class="what">
 					<div class="entry_title"><xsl:value-of select="name"/></div>
 					<div class="entry_subtitle"><xsl:value-of select="institution"/></div>
@@ -287,7 +291,10 @@
 		
 		<xsl:template match="position">
 			<div class="entry">
-				<xsl:apply-templates select="year | years"/>
+				<div class="when">
+					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="expectation"/>
+				</div>
 				<div class="what">
 					<div class="entry_title"><xsl:value-of select="name"/></div>
 					<div class="entry_subtitle"><xsl:value-of select="employer"/></div>
@@ -298,7 +305,10 @@
 		
 		<xsl:template match="award">
 			<div class="entry">
-				<xsl:apply-templates select="year | years"/>
+				<div class="when">
+					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="expectation"/>
+				</div>
 				<div class="what">
 					<div class="entry_title"><xsl:value-of select="name"/></div>
 					<div class="entry_subtitle"><xsl:value-of select="by"/></div>
@@ -320,8 +330,8 @@
 		<xsl:template match="publication">
 			<div class="entry">
 				<div class="when">
-					<xsl:value-of select="year"/>
-					<xsl:apply-templates select="acceptance"/>
+					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="expectation"/>
 				</div>
 				<div class="what">
 					<div class="entry_title"><xsl:value-of select="authors"/></div>
@@ -368,12 +378,12 @@
 						.contact {
 							flex: 1;
 							text-align: right;
-							color: #646463;
+							color: #919190;
 							font-size: 0.75em;
 							letter-spacing: 0.1em;
 						}
 						.contact a {
-							color: #646463;
+							color: #919190;
 							text-decoration: none;
 						}
 						.contact a:hover {
@@ -444,17 +454,17 @@
 							content: "\2212";
 							padding: 0.5em;
 						}
-						.acceptance {
-							font-weight: 400;
+						.expectation {
+							font-weight: normal;
 							font-style: italic;
-							color: #646463;
+							color: #919190;
 						}
 						footer {
 							text-align: center;
 							font-size: 0.75em;
 							height: 2em;
 							margin-top: -2em;
-							color: #646463;
+							color: #919190;
 						}
 					</style>
 				</head>
@@ -472,9 +482,7 @@
 							<xsl:apply-templates select="objective"/>
 							<xsl:apply-templates select="section"/>
 						</div>
-						<footer>
-							This XML document automatically transformed itself into HTML for your viewing pleasure.
-						</footer>
+						<footer>This XML document automatically transformed itself into HTML for your viewing pleasure.</footer>
 					</div>
 				</body>
 			</html>
