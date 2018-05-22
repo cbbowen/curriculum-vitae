@@ -170,7 +170,6 @@
 		<publication>
 			<authors>Cenk Baykal, Chris Bowen, and Ron Alterovitz</authors>
 			<year>2018</year>
-			<expectation>Conditionally</expectation>
 			<expectation>Accepted</expectation>
 			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
 			<publisher>Autonomous Robots (AuRo)</publisher>
@@ -178,7 +177,6 @@
 		<publication>
 			<authors>Alan Kuntz, Chris Bowen, Cenk Baykal, Art Mahoney, Patrick Anderson, Fabien Maldonado, Robert James Webster III, and Ron Alterovitz</authors>
 			<year>2018</year>
-			<expectation>Accepted</expectation>
 			<title>Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
