@@ -161,18 +161,17 @@
 	<section>
 		<name>Publications</name>
 		<publication>
-			<authors>Chris Bowen and Ron Alterovitz</authors>
-			<year>2018</year>
-			<expectation>Accepted</expectation>
-			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
-			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
-		</publication>
-		<publication>
 			<authors>Cenk Baykal, Chris Bowen, and Ron Alterovitz</authors>
 			<year>2018</year>
 			<expectation>Accepted</expectation>
 			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
 			<publisher>Autonomous Robots (AuRo)</publisher>
+		</publication>
+		<publication>
+			<authors>Chris Bowen and Ron Alterovitz</authors>
+			<year>2018</year>
+			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
+			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
 		</publication>
 		<publication>
 			<authors>Alan Kuntz, Chris Bowen, Cenk Baykal, Art Mahoney, Patrick Anderson, Fabien Maldonado, Robert James Webster III, and Ron Alterovitz</authors>
