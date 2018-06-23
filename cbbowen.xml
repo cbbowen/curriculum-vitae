@@ -30,11 +30,18 @@
 		<degree>
 			<name>Ph.D. in Computer Science</name>
 			<institution>University of North Carolina at Chapel Hill</institution>
-			<years>
-				<from>2013</from>
-				<to>2018</to>
-			</years>
-			<expectation>Expected</expectation>
+			<dates>
+				<from>
+					<year>2013</year>
+					<month>August</month>
+					<day>15</day>
+				</from>
+				<to>
+					<year>2018</year>
+					<month>August</month>
+					<day>7</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Thesis: &#x201c;Unifying Robot Learning and Motion Planning for Generalized Task Execution&#x201d;</item>
@@ -45,10 +52,18 @@
 		<degree>
 			<name>M.S. in Computer Science</name>
 			<institution>University of North Carolina at Chapel Hill</institution>
-			<years>
-				<from>2011</from>
-				<to>2013</to>
-			</years>
+			<dates>
+				<from>
+					<year>2011</year>
+					<month>August</month>
+					<day>23</day>
+				</from>
+				<to>
+					<year>2013</year>
+					<month>May</month>
+					<day>12</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Courses included Robotics, Motion Planning, Algorithmics of Motion, Machine Learning, Computer Vision, Computational Geometry, and Computer Architecture</item>
@@ -58,10 +73,18 @@
 		<degree>
 			<name>B.S. in Computer Science with Highest Honor</name>
 			<institution>Georgia Institute of Technology, Atlanta, GA</institution>
-			<years>
-				<from>2007</from>
-				<to>2011</to>
-			</years>
+			<dates>
+				<from>
+					<year>2007</year>
+					<month>August</month>
+					<day>20</day>
+				</from>
+				<to>
+					<year>2011</year>
+					<month>May</month>
+					<day>8</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>GPA: Overall 3.97, Major 4.00</item>
@@ -77,16 +100,27 @@
 		<position>
 			<name>Software Engineer</name>
 			<employer>Waymo LLC, Mountain View, CA</employer>
-			<year>2018</year>
-			<expectation>Starting July</expectation>
+			<date>
+				<year>2018</year>
+				<month>July</month>
+				<day>9</day>
+			</date>
 		</position>
 		<position>
 			<name>Research Assistant to Ron Alterovitz</name>
 			<employer>Computational Robotics Group, University of North Carolina at Chapel Hill</employer>
-			<years>
-				<from>2011</from>
-				<to>2018</to>
-			</years>
+			<dates>
+				<from>
+					<year>2011</year>
+					<month>August</month>
+					<day>23</day>
+				</from>
+				<to>
+					<year>2018</year>
+					<month>June</month>
+					<day>25</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Devised novel algorithms combining automatic task learning from user demonstrations with sampling-based methods for planning collision-free motions to accomplish the task</item>
@@ -99,10 +133,18 @@
 		<position>
 			<name>Teaching Assistant</name>
 			<employer>Georgia Institute of Technology, Atlanta, GA</employer>
-			<years>
-				<from>2010</from>
-				<to>2011</to>
-			</years>
+			<dates>
+				<from>
+					<year>2010</year>
+					<month>August</month>
+					<day>22</day>
+				</from>
+				<to>
+					<year>2011</year>
+					<month>May</month>
+					<day>2</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Led recitations and held office hours to foster student understanding of algorithm design</item>
@@ -114,7 +156,18 @@
 		<position>
 			<name>Summer Intern</name>
 			<employer>Worthwhile Company, Greenville, SC</employer>
-			<year>2009</year>
+			<dates>
+				<from>
+					<year>2009</year>
+					<month>May</month>
+					<day>18</day>
+				</from>
+				<to>
+					<year>2009</year>
+					<month>August</month>
+					<day>6</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Implemented and tested internal web application for database and server management</item>
@@ -124,7 +177,18 @@
 		<position>
 			<name>Student Participant</name>
 			<employer>Google Summer of Code</employer>
-			<year>2008</year>
+			<dates>
+				<from>
+					<year>2008</year>
+					<month>May</month>
+					<day>26</day>
+				</from>
+				<to>
+					<year>2008</year>
+					<month>August</month>
+					<day>18</day>
+				</to>
+			</dates>
 			<description>
 				<list>
 					<item>Designed, implemented, documented, and tested new level-of-detail features for the graphics rendering engine OGRE</item>
@@ -134,35 +198,48 @@
 		<position>
 			<name>Contract Programmer</name>
 			<employer>Rent-A-Coder</employer>
-			<year>2007</year>
+			<date>
+				<year>2007</year>
+			</date>
 			<description>
 				<list>
 					<item>Implemented multithreaded timers for automation control</item>
 				</list>
 			</description>
-		</position>
+		</position>		
 	</section>
 	<!-- Awards -->
 	<section>
 		<name>Awards</name>
 		<award>
 			<name>Invited Paper</name>
-			<year>2018</year>
+			<date>
+				<year>2018</year>
+				<month>March</month>
+			</date>
 			<by>ACM/IEEE International Conference on Human Robot Interaction (HRI)</by>
 		</award>
 		<award>
 			<name>Doctoral Consortium Travel Grant</name>
-			<year>2017</year>
+			<date>
+				<year>2017</year>
+				<month>December</month>
+			</date>
 			<by>International Symposium on Robotics Research (ISRR)</by>
 		</award>
 		<award>
 			<name>National Science Foundation Travel Grant</name>
-			<year>2014</year>
+			<date>
+				<year>2014</year>
+				<month>September</month>
+			</date>
 			<by>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</by>
 		</award>
 		<award>
 			<name>Upsilon Pi Epsilon Member</name>
-			<year>2011</year>
+			<date>
+				<year>2011</year>
+			</date>
 			<by>ACM Honor Society for the Computing and Information Disciplines</by>
 		</award>
 	</section>
@@ -187,50 +264,73 @@
 		<name>Publications</name>
 		<publication>
 			<authors>Cenk Baykal, Chris Bowen, and Ron Alterovitz</authors>
-			<year>2018</year>
+			<date>
+				<year>2018</year>
+			</date>
 			<expectation>Accepted</expectation>
 			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
 			<publisher>Autonomous Robots (AuRo)</publisher>
 		</publication>
 		<publication>
 			<authors>Chris Bowen and Ron Alterovitz</authors>
-			<year>2018</year>
+			<date>
+				<year>2018</year>
+				<month>May</month>
+			</date>
 			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
 			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
 		</publication>
 		<publication>
 			<authors>Alan Kuntz, Chris Bowen, Cenk Baykal, Art Mahoney, Patrick Anderson, Fabien Maldonado, Robert James Webster III, and Ron Alterovitz</authors>
-			<year>2018</year>
+			<date>
+				<year>2018</year>
+				<month>May</month>
+			</date>
 			<title>Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
 		<publication>
 			<authors>Chris Bowen and Ron Alterovitz</authors>
-			<year>2017</year>
+			<date>
+				<year>2017</year>
+				<month>December</month>
+			</date>
 			<title>Accelerating motion planning for learned mobile manipulation tasks using task-guided Gibbs sampling</title>
 			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
 		</publication>
 		<publication>
 			<authors>Alan Kuntz, Chris Bowen, and Ron Alterovitz</authors>
-			<year>2017</year>
+			<date>
+				<year>2017</year>
+				<month>December</month>
+			</date>
 			<title>Fast anytime motion planning in point clouds by interleaving sampling and interior point optimization</title>
 			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
 		</publication>
 		<publication>
 			<authors>Chris Bowen and Ron Alterovitz</authors>
-			<year>2016</year>
+			<date>
+				<year>2016</year>
+				<month>July</month>
+			</date>
 			<title>Asymptotically optimal motion planning for tasks using learned virtual landmarks</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
 		<publication>
 			<authors>Chris Bowen, Gu Ye, and Ron Alterovitz</authors>
-			<year>2015</year>
+			<date>
+				<year>2015</year>
+				<month>January</month>
+			</date>
 			<title>Asymptotically optimal motion planning for learned tasks using time-dependent cost maps</title>
 			<publisher>IEEE Transactions on Automation Science and Engineering (T-ASE)</publisher>
 		</publication>
 		<publication>
 			<authors>Chris Bowen and Ron Alterovitz</authors>
-			<year>2014</year>
+			<date>
+				<year>2014</year>
+				<month>September</month>
+			</date>
 			<title>Closed-loop global motion planning for reactive execution of learned tasks</title>
 			<publisher>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</publisher>
 		</publication>
@@ -250,8 +350,8 @@
 						<xsl:with-param name="str" select="concat(number, ' ', street, ' ', apartment, ', ', city, ', ', state, ' ', zip, ' ', country)"/>
 					</xsl:call-template>
 				</xsl:attribute>
-				<div><xsl:value-of select="number"/>&#xa0;<xsl:value-of select="street"/>&#xa0;<xsl:value-of select="apartment"/></div>
-				<div><xsl:value-of select="city"/>,&#xa0;<xsl:value-of select="state"/>&#xa0;<xsl:value-of select="zip"/></div>
+				<div><xsl:value-of select="number"/><xsl:value-of select="concat(' ', street)"/><xsl:value-of select="concat(' ', apartment)"/></div>
+				<div><xsl:value-of select="city"/><xsl:value-of select="concat(', ', state)"/>&#xa0;<xsl:value-of select="zip"/></div>
 				<div><xsl:value-of select="country"/></div>
 			</a>
 		</xsl:template>
@@ -276,12 +376,26 @@
 			<div class="objective"><xsl:value-of select="."/></div>
 		</xsl:template>
 
-		<xsl:template match="year">
-			<xsl:value-of select="."/>
+		<xsl:template match="date | from | to">
+			<div class="year">&#xa0;<xsl:value-of select="year"/></div>
+			<div class="month">
+				<xsl:value-of select="substring(month,1,3)"/>
+				<!-- <xsl:value-of select="concat(' ', day)"/> -->
+			</div>
 		</xsl:template>
 
-		<xsl:template match="years">
-			<xsl:value-of select="from"/> &#x2013;&#xa0;<xsl:value-of select="to"/>
+		<xsl:template match="dates">
+			<div style="display: inline-grid; grid-template-columns: auto auto auto;">
+				<div style="grid-column: 1;">
+					<xsl:apply-templates select="from"/>
+				</div>
+				<div style="grid-column: 2;">
+					&#xa0;&#x2013;
+				</div>
+				<div style="grid-column: 3;">
+					<xsl:apply-templates select="to"/>
+				</div>
+			</div>
 		</xsl:template>
 
 		<xsl:template match="expectation">
@@ -305,7 +419,7 @@
 		<xsl:template match="degree">
 			<div class="entry">
 				<div class="when">
-					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="date | dates"/>
 					<xsl:apply-templates select="expectation"/>
 				</div>
 				<div class="what">
@@ -319,7 +433,7 @@
 		<xsl:template match="position">
 			<div class="entry">
 				<div class="when">
-					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="date | dates"/>
 					<xsl:apply-templates select="expectation"/>
 				</div>
 				<div class="what">
@@ -333,7 +447,7 @@
 		<xsl:template match="award">
 			<div class="entry">
 				<div class="when">
-					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="date | dates"/>
 					<xsl:apply-templates select="expectation"/>
 				</div>
 				<div class="what">
@@ -345,7 +459,7 @@
 
 		<xsl:template match="skill">
 			<div class="entry">
-				<div class="when"><xsl:value-of select="name"/></div>
+				<div class="when skillname"><xsl:value-of select="name"/></div>
 				<div class="what">
 					<div class="description">
 						<xsl:value-of select="proficiency"/>
@@ -357,7 +471,7 @@
 		<xsl:template match="publication">
 			<div class="entry">
 				<div class="when">
-					<xsl:apply-templates select="year | years"/>
+					<xsl:apply-templates select="date | dates"/>
 					<xsl:apply-templates select="expectation"/>
 				</div>
 				<div class="what">
@@ -456,10 +570,21 @@
 							padding-right: 0.5em;
 						}
 						.when {
-							font-weight: 600;
 							min-width: 13.75%;
 							text-align: right;
 							align-content: right;
+						}
+						.year {
+							font-weight: 600;
+						}
+						.month {
+							color: #919190;
+							font-size: 0.75em;
+							letter-spacing: 0.1em;
+							line-height: 0.75em;
+						}
+						.skillname {
+							font-weight: 600;
 						}
 						.what {
 							flex: 1 0;
@@ -558,3 +683,6 @@
 
 	</xsl:stylesheet>
 </person>
+
+<!-- TODO: Completion of PhD requirements: Jun ?? -->
+<!-- NOTE: Officially active in M.S. program: Apr 1 -->
