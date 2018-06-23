@@ -195,6 +195,7 @@
 				</list>
 			</description>
 		</position>
+		<!--
 		<position>
 			<name>Contract Programmer</name>
 			<employer>Rent-A-Coder</employer>
@@ -206,7 +207,8 @@
 					<item>Implemented multithreaded timers for automation control</item>
 				</list>
 			</description>
-		</position>		
+		</position>
+		-->
 	</section>
 	<!-- Awards -->
 	<section>
