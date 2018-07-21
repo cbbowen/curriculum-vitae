@@ -5,12 +5,12 @@
 	<name>Chris Bowen</name>
 	<!-- Contact -->
 	<address>
-		<number>1521</number>
-		<street>E Franklin St.</street>
-		<apartment>102A</apartment>
-		<city>Chapel Hill</city>
-		<state>NC</state>
-		<zip>27514</zip>
+		<number>555</number>
+		<street>San Antonio Rd.</street>
+		<apartment>524</apartment>
+		<city>Mountain View</city>
+		<state>CA</state>
+		<zip>94040</zip>
 	</address>
 	<phone>
 		<country>1</country>
@@ -23,83 +23,13 @@
 		<domain>alumni.unc.edu</domain>
 	</email>
 	<!-- Objective -->
-	<objective>Having recently defended my dissertation on unifying machine learning and motion planning for robotic tasks, I have expertise in two exciting domains, and I hope to further diversify and develop this repertoire by tackling challenging new problems.</objective>
-	<!-- Education -->
-	<section>
-		<name>Education</name>
-		<degree>
-			<name>Ph.D. in Computer Science</name>
-			<institution>University of North Carolina at Chapel Hill</institution>
-			<dates>
-				<from>
-					<year>2013</year>
-					<month>August</month>
-					<day>15</day>
-				</from>
-				<to>
-					<year>2018</year>
-					<month>August</month>
-					<day>7</day>
-				</to>
-			</dates>
-			<description>
-				<list>
-					<item>Thesis: &#x201c;Unifying Robot Learning and Motion Planning for Generalized Task Execution&#x201d;</item>
-					<item>Committee: Ron Alterovitz, Alex Berg, Kris Hauser, Vladimir Jojic, and Dinesh Manocha</item>
-				</list>
-			</description>
-		</degree>
-		<degree>
-			<name>M.S. in Computer Science</name>
-			<institution>University of North Carolina at Chapel Hill</institution>
-			<dates>
-				<from>
-					<year>2011</year>
-					<month>August</month>
-					<day>23</day>
-				</from>
-				<to>
-					<year>2013</year>
-					<month>May</month>
-					<day>12</day>
-				</to>
-			</dates>
-			<description>
-				<list>
-					<item>Courses included Robotics, Motion Planning, Algorithmics of Motion, Machine Learning, Computer Vision, Computational Geometry, and Computer Architecture</item>
-				</list>
-			</description>
-		</degree>
-		<degree>
-			<name>B.S. in Computer Science with Highest Honor</name>
-			<institution>Georgia Institute of Technology, Atlanta, GA</institution>
-			<dates>
-				<from>
-					<year>2007</year>
-					<month>August</month>
-					<day>20</day>
-				</from>
-				<to>
-					<year>2011</year>
-					<month>May</month>
-					<day>8</day>
-				</to>
-			</dates>
-			<description>
-				<list>
-					<item>GPA: Overall 3.97, Major 4.00</item>
-					<item>GRE: Quantitative 800 (94%), Verbal 610 (88%), Computer Science 850 (94%)</item>
-					<item>Courses included Computational Modelling Algorithms, Differential Equations, Numerical Analysis, Combinatorial Analysis, Computer Graphics, and Computer Animation</item>
-				</list>
-			</description>
-		</degree>
-	</section>
+	<objective>Having worked with household robots while earning my doctorate and autonomous vehicles at Waymo, I hope to continue to develop my skills and advance and the state of the art in motion planning while tackling challenging, real-world problems.</objective>
 	<!-- Experience -->
 	<section>
 		<name>Experience</name>
 		<position>
 			<name>Software Engineer</name>
-			<employer>Waymo LLC, Mountain View, CA</employer>
+			<employer>Waymo, Mountain View, CA</employer>
 			<dates>
 				<from>
 					<year>2018</year>
@@ -108,6 +38,7 @@
 				</from>
 				<present/>
 			</dates>
+			<description />
 		</position>
 		<position>
 			<name>Research Assistant to Ron Alterovitz</name>
@@ -126,10 +57,8 @@
 			</dates>
 			<description>
 				<list>
-					<item>Devised novel algorithms combining automatic task learning from user demonstrations with sampling-based methods for planning collision-free motions to accomplish the task</item>
+					<item>Devised novel algorithms combining task learning from user demonstrations with sampling-based methods for planning collision-free motions to autonomously accomplish tasks</item>
 					<item>Implemented and evaluated approaches interactively on multiple physical and simulated robot systems capable of manipulation and mobility</item>
-					<item>Published and presented work internationally</item>
-					<item>Mentored undergraduate research assistants</item>
 				</list>
 			</description>
 		</position>
@@ -150,9 +79,7 @@
 			</dates>
 			<description>
 				<list>
-					<item>Led recitations and held office hours to foster student understanding of algorithm design</item>
-					<item>Assisted in the construction and grading of assignments and exams</item>
-					<item>Presented advanced topics in analysis of algorithms to honors students</item>
+					<item>Assisted in fostering and evaluating student understanding in algorithm analysis and design</item>
 				</list>
 			</description>
 		</position>
@@ -198,20 +125,76 @@
 				</list>
 			</description>
 		</position>
-		<!--
-		<position>
-			<name>Contract Programmer</name>
-			<employer>Rent-A-Coder</employer>
-			<date>
-				<year>2007</year>
-			</date>
+	</section>
+	<!-- Education -->
+	<section>
+		<name>Education</name>
+		<degree>
+			<name>Ph.D. in Computer Science</name>
+			<institution>University of North Carolina at Chapel Hill</institution>
+			<dates>
+				<from>
+					<year>2013</year>
+					<month>August</month>
+					<day>15</day>
+				</from>
+				<to>
+					<year>2018</year>
+					<month>August</month>
+					<day>7</day>
+				</to>
+			</dates>
 			<description>
 				<list>
-					<item>Implemented multithreaded timers for automation control</item>
+					<item>Thesis: &#x201c;Unifying Robot Learning and Motion Planning for Generalized Task Execution&#x201d;</item>
+					<item>Committee: Ron Alterovitz, Alex Berg, Kris Hauser, Vladimir Jojic, and Dinesh Manocha</item>
 				</list>
 			</description>
-		</position>
-		-->
+		</degree>
+		<degree>
+			<name>M.S. in Computer Science</name>
+			<institution>University of North Carolina at Chapel Hill</institution>
+			<dates>
+				<from>
+					<year>2011</year>
+					<month>August</month>
+					<day>23</day>
+				</from>
+				<to>
+					<year>2013</year>
+					<month>May</month>
+					<day>12</day>
+				</to>
+			</dates>
+			<description>
+				<list>
+					<!-- <item>Courses included Robotics, Motion Planning, Algorithmics of Motion, Machine Learning, Computer Vision, Computational Geometry, and Computer Architecture</item> -->
+				</list>
+			</description>
+		</degree>
+		<degree>
+			<name>B.S. in Computer Science with Highest Honor</name>
+			<institution>Georgia Institute of Technology, Atlanta, GA</institution>
+			<dates>
+				<from>
+					<year>2007</year>
+					<month>August</month>
+					<day>20</day>
+				</from>
+				<to>
+					<year>2011</year>
+					<month>May</month>
+					<day>8</day>
+				</to>
+			</dates>
+			<description>
+				<list>
+					<!-- <item>GPA: Overall 3.97, Major 4.00</item> -->
+					<!-- <item>GRE: Quantitative 800 (94%), Verbal 610 (88%), Computer Science 850 (94%)</item> -->
+					<!-- <item>Courses included Computational Modelling Algorithms, Differential Equations, Numerical Analysis, Combinatorial Analysis, Computer Graphics, and Computer Animation</item> -->
+					</list>
+			</description>
+		</degree>
 	</section>
 	<!-- Awards -->
 	<section>
@@ -253,15 +236,15 @@
 	<section>
 		<name>Skills</name>
 		<skill>
-			<name>Platforms</name>
+			<name>Platform</name>
 			<proficiency>Linux, Windows</proficiency>
 		</skill>
 		<skill>
-			<name>Languages</name>
+			<name>Language</name>
 			<proficiency>C++17 and C# extensively; Python, Rust, Haskell, Java, MATLAB, JavaScript</proficiency>
 		</skill>
 		<skill>
-			<name>Technologies</name>
+			<name>Technology</name>
 			<proficiency>OpenMP, MPI, SIMD, TensorFlow, Torch, Boost, ROS, Gazebo, PCL, OpenCV, OpenGL, Vulkan, OGRE, Bullet, PhysX, Unreal Engine, Blender, Git, SQL, LaTeX, HTML, CSS</proficiency>
 		</skill>
 	</section>
@@ -275,7 +258,7 @@
 				<month>June</month>
 				<day>29</day>
 			</date>
-			<title>Asymptotically optimal kinematic design of robots using motion planning</title>
+			<title url="https://rdcu.be/2b01">Asymptotically optimal kinematic design of robots using motion planning</title>
 			<publisher>Autonomous Robots (AuRo)</publisher>
 		</publication>
 		<publication>
@@ -284,7 +267,7 @@
 				<year>2018</year>
 				<month>May</month>
 			</date>
-			<title>Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
+			<title url="https://dl.acm.org/authorize?N652649">Closed-loop global motion planning for reactive, collision-free execution of learned tasks</title>
 			<publisher>ACM Transactions on Human-Robot Interaction (THRI)</publisher>
 		</publication>
 		<publication>
@@ -293,7 +276,7 @@
 				<year>2018</year>
 				<month>May</month>
 			</date>
-			<title>Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
+			<title url="http://robotics.cs.unc.edu/publications/Kuntz2018_ICRA.pdf">Kinematic design optimization of a parallel surgical robot to maximize anatomical visibility via motion planning</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
 		<publication>
@@ -302,7 +285,7 @@
 				<year>2017</year>
 				<month>December</month>
 			</date>
-			<title>Accelerating motion planning for learned mobile manipulation tasks using task-guided Gibbs sampling</title>
+			<title url="http://robotics.cs.unc.edu/publications/Bowen2017_ISRR.pdf">Accelerating motion planning for learned mobile manipulation tasks using task-guided Gibbs sampling</title>
 			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
 		</publication>
 		<publication>
@@ -311,7 +294,7 @@
 				<year>2017</year>
 				<month>December</month>
 			</date>
-			<title>Fast anytime motion planning in point clouds by interleaving sampling and interior point optimization</title>
+			<title url="https://pdfs.semanticscholar.org/2f05/b2056a9e8bbcfa340eff6f67e00f8600999b.pdf">Fast anytime motion planning in point clouds by interleaving sampling and interior point optimization</title>
 			<publisher>International Symposium on Robotics Research (ISRR)</publisher>
 		</publication>
 		<publication>
@@ -320,7 +303,7 @@
 				<year>2016</year>
 				<month>July</month>
 			</date>
-			<title>Asymptotically optimal motion planning for tasks using learned virtual landmarks</title>
+			<title url="http://robotics.cs.unc.edu/publications/Bowen2016_RAL.pdf">Asymptotically optimal motion planning for tasks using learned virtual landmarks</title>
 			<publisher>IEEE International Conference on Robotics and Automation (ICRA)</publisher>
 		</publication>
 		<publication>
@@ -329,7 +312,7 @@
 				<year>2015</year>
 				<month>January</month>
 			</date>
-			<title>Asymptotically optimal motion planning for learned tasks using time-dependent cost maps</title>
+			<title url="http://robotics.cs.unc.edu/publications/Bowen2015_TASE.pdf">Asymptotically optimal motion planning for learned tasks using time-dependent cost maps</title>
 			<publisher>IEEE Transactions on Automation Science and Engineering (T-ASE)</publisher>
 		</publication>
 		<publication>
@@ -338,7 +321,7 @@
 				<year>2014</year>
 				<month>September</month>
 			</date>
-			<title>Closed-loop global motion planning for reactive execution of learned tasks</title>
+			<title url="http://robotics.cs.unc.edu/publications/Bowen2014_IROS.pdf">Closed-loop global motion planning for reactive execution of learned tasks</title>
 			<publisher>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</publisher>
 		</publication>
 	</section>
@@ -353,9 +336,7 @@
 		<xsl:template match="address">
 			<a class="address">
 				<xsl:attribute name="href">
-					https://www.google.com/maps/place/<xsl:call-template name="url-encode">
-						<xsl:with-param name="str" select="concat(number, ' ', street, ' ', apartment, ', ', city, ', ', state, ' ', zip, ' ', country)"/>
-					</xsl:call-template>
+					https://www.google.com/maps/place/<xsl:value-of select="concat(number, ' ', street, ' ', apartment, ', ', city, ', ', state, ' ', zip, ' ', country)"/>
 				</xsl:attribute>
 				<div><xsl:value-of select="number"/><xsl:value-of select="concat(' ', street)"/><xsl:value-of select="concat(' ', apartment)"/></div>
 				<div><xsl:value-of select="city"/><xsl:value-of select="concat(', ', state)"/>&#xa0;<xsl:value-of select="zip"/></div>
@@ -461,17 +442,17 @@
 			<xsl:param name="title"/>
 			<xsl:param name="subtitle"/>
 			<xsl:param name="description"/>
-			<!-- <div class="entry"> -->
-				<div class="when">
+			<tr class="entry">
+				<td class="when">
 					<xsl:apply-templates select="$dates"/>
 					<xsl:apply-templates select="$expectation"/>
-				</div>
-				<div class="what">
+				</td>
+				<td class="what">
 					<div class="entry_title"><xsl:value-of select="$title"/></div>
 					<div class="entry_subtitle"><xsl:value-of select="$subtitle"/></div>
 					<xsl:apply-templates select="$description"/>
-				</div>
-			<!-- </div> -->
+				</td>
+			</tr>
 		</xsl:template>
 
 		<xsl:template match="degree">
@@ -505,18 +486,23 @@
 		</xsl:template>
 
 		<xsl:template match="skill">
-			<!-- <div class="entry"> -->
-				<div class="when skill_name"><xsl:value-of select="name"/></div>
-				<div class="what">
+			<tr class="entry">
+				<td class="when skill_name"><xsl:value-of select="name"/></td>
+				<td class="what">
 					<div class="description">
 						<xsl:value-of select="proficiency"/>
 					</div>
-				</div>
-			<!-- </div> -->
+				</td>
+			</tr>
 		</xsl:template>
 
 		<xsl:template match="title">
-			<div class="paper">&#x201c;<xsl:value-of select="."/>&#x201d;</div>
+			<a class="paper">
+				<xsl:if test="@url">
+					<xsl:attribute name="href"><xsl:value-of select="@url"/></xsl:attribute>
+				</xsl:if>
+				&#x201c;<xsl:value-of select="."/>&#x201d;
+			</a>
 		</xsl:template>
 
 		<xsl:template match="publication">
@@ -530,10 +516,18 @@
 		</xsl:template>
 
 		<xsl:template match="section">
-			<!-- <section> -->
-				<h1><xsl:value-of select="name"/></h1>
-				<xsl:apply-templates select="degree | position | award | skill | publication"/>
-			<!-- </section> -->
+			<section>
+				<table>
+					<tr>
+						<td colspan="2">
+							<div class="section_header">
+								<h1><xsl:value-of select="name"/></h1>
+							</div>
+						</td>
+					</tr>
+					<xsl:apply-templates select="degree | position | award | skill | publication"/>
+				</table>
+			</section>
 		</xsl:template>
 
 		<xsl:template match="person">
@@ -551,28 +545,6 @@
 						.page {
 							padding: 0;
 						}
-						@media not print {
-							body {
-								/* background-color: #321414; */
-								background-color: #1b2a35;
-							}
-							.page {
-								background-color: #fbfbf8;
-								max-width: 8.5in;
-								box-shadow: 0px 2px 4px 4px #00000080;
-							}
-							.content {
-								padding: 11.76%;
-							}
-						}
-						@media print {
-							@page {
-								margin: 1in;
-							}
-							footer {
-								display: none;
-							}
-						}
 						.header {
 							display: flex;
 							flex-wrap: nowrap;
@@ -585,11 +557,11 @@
 							font-size: 0.75em;
 							letter-spacing: 0.1em;
 						}
-						.contact a {
-							color: #919190;
-							text-decoration: none;
+						a {
+							color: inherit;
+							text-decoration: inherit;
 						}
-						.contact a:hover {
+						a[href]:hover {
 							text-decoration: underline;
 						}
 						header {
@@ -602,49 +574,55 @@
 							text-align: justify;
 							padding-left: 12%;
 							padding-right: 12%;
+							margin-top: 2em;
 						}
-						.objective, h1 {
-							margin-top: 1.5em;
+						.section_header {
+							margin-top: 0;
+							margin-bottom: 2em;
 						}
-						h1 {
-							margin-bottom: 1.5em;
+						table {
+							font: inherit;
+							border-collapse: collapse;
+							border-spacing: 0;
+							width: 100%;
+							margin-top: 2em;
 						}
-						.sections {
-							display: grid;
-							grid-template-columns: fit-content(13.75%) 1fr;
+						tr {
+							page-break-inside: avoid;
 						}
-						h1 {
-							grid-column: 1 / span 2;
+						tr.entry {
+							page-break-before: avoid;
+						}
+						.section_header {
 							display: flex;
 							align-items: center;
 							justify-content: space-between;
 							text-align: center;
+						}
+						h1 {
 							font-weight: 300;
 							font-size: 1.5em;
+							min-width: 25%;
+							margin: 0;
 						}
-						h1::before, h1::after {
+						.section_header::before, .section_header::after {
 							content: "";
 							display: block;
 							flex: 1 0;
-							max-width: 40%;
+							width: 100%;
 							border-bottom: 1px solid black;
 						}
 						.entry {
-							display: flex;
-							flex-wrap: nowrap;
-							align-items: baseline;
-						}
-						.when, .what {
-							padding-left: 0.5em;
-							padding-right: 0.5em;
+							vertical-align: baseline;
 						}
 						.when {
-							grid-column: 1;
 							text-align: right;
 							align-content: right;
+							min-width: 5.5em;
+							padding-right: 1em;
 						}
 						.what {
-							grid-column: 2;
+							width: 100%;
 						}
 						.year {
 							font-weight: 600;
@@ -687,6 +665,30 @@
 							margin-top: -2em;
 							color: #919190;
 						}
+						@media not print {
+							body {
+								background-color: #1b2a35;
+							}
+							.page {
+								background-color: #fbfbf8;
+								max-width: 8.5in;
+								box-shadow: 0px 2px 4px 4px #00000080;
+							}
+							.content {
+								padding: 11.76%;
+							}
+						}
+						@media print {
+							@page {
+								margin: 1in;
+							}
+							footer {
+								display: none;
+							}
+							.section_header::before, .section_header::after {
+								border-bottom-width: 1px;
+							}
+						}
 					</style>
 				</head>
 				<body>
@@ -701,61 +703,12 @@
 								</div>
 							</div>
 							<xsl:apply-templates select="objective"/>
-							<div class="sections">
-								<xsl:apply-templates select="section"/>
-							</div>
+							<xsl:apply-templates select="section"/>
 						</div>
 						<footer>This XML document automatically transformed itself into HTML for your viewing pleasure.</footer>
 					</div>
 				</body>
 			</html>
 		</xsl:template>
-
-		<!-- URL-encoding by Mike J. Brown <mike@skew.org>. License: CC0 -->
-		<!-- BEGIN -->
-		<xsl:variable name="ascii"> !"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~</xsl:variable>
-		<xsl:variable name="latin1">&#160;&#161;&#162;&#163;&#164;&#165;&#166;&#167;&#168;&#169;&#170;&#171;&#172;&#173;&#174;&#175;&#176;&#177;&#178;&#179;&#180;&#181;&#182;&#183;&#184;&#185;&#186;&#187;&#188;&#189;&#190;&#191;&#192;&#193;&#194;&#195;&#196;&#197;&#198;&#199;&#200;&#201;&#202;&#203;&#204;&#205;&#206;&#207;&#208;&#209;&#210;&#211;&#212;&#213;&#214;&#215;&#216;&#217;&#218;&#219;&#220;&#221;&#222;&#223;&#224;&#225;&#226;&#227;&#228;&#229;&#230;&#231;&#232;&#233;&#234;&#235;&#236;&#237;&#238;&#239;&#240;&#241;&#242;&#243;&#244;&#245;&#246;&#247;&#248;&#249;&#250;&#251;&#252;&#253;&#254;&#255;</xsl:variable>
-		<xsl:variable name="safe">!'()*-.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz~</xsl:variable>
-		<xsl:variable name="hex" >0123456789ABCDEF</xsl:variable>
-		<xsl:template name="url-encode">
-			<xsl:param name="str"/>
-			<xsl:if test="$str">
-				<xsl:variable name="first-char" select="substring($str,1,1)"/>
-				<xsl:choose>
-					<xsl:when test="contains($safe,$first-char)">
-						<xsl:value-of select="$first-char"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:variable name="codepoint">
-							<xsl:choose>
-								<xsl:when test="contains($ascii,$first-char)">
-									<xsl:value-of select="string-length(substring-before($ascii,$first-char)) + 32"/>
-								</xsl:when>
-								<xsl:when test="contains($latin1,$first-char)">
-									<xsl:value-of select="string-length(substring-before($latin1,$first-char)) + 160"/>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:message terminate="no">Warning: string contains a character that is out of range! Substituting "?".</xsl:message>
-									<xsl:text>63</xsl:text>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:variable>
-					<xsl:variable name="hex-digit1" select="substring($hex,floor($codepoint div 16) + 1,1)"/>
-					<xsl:variable name="hex-digit2" select="substring($hex,$codepoint mod 16 + 1,1)"/>
-					<xsl:value-of select="concat('%',$hex-digit1,$hex-digit2)"/>
-					</xsl:otherwise>
-				</xsl:choose>
-				<xsl:if test="string-length($str) &gt; 1">
-					<xsl:call-template name="url-encode">
-						<xsl:with-param name="str" select="substring($str,2)"/>
-					</xsl:call-template>
-				</xsl:if>
-			</xsl:if>
-		</xsl:template>
-		<!-- END -->
-
 	</xsl:stylesheet>
 </person>
-
-<!-- TODO: Completion of Ph.D. requirements: Jun ?? -->
-<!-- NOTE: Officially active in M.S. program: Apr 1 -->
